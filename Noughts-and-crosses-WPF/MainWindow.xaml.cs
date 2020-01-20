@@ -90,6 +90,28 @@ namespace Noughts_and_crosses_WPF
                 label1.Text = "Wygrał gracz X";
 
             }
+            //4 k
+            if (t16 == "O" && t17 == "O" && t18 == "O" && t19 == "O" && t20 == "O")
+            {
+                label1.Text = "Wygrał gracz O";
+
+            }
+            if (t16 == "X" && t17 == "X" && t18 == "X" && t19 == "X" && t20 == "X")
+            {
+                label1.Text = "Wygrał gracz X";
+
+            }
+            //5 k
+            if (t21 == "O" && t22 == "O" && t23 == "O" && t24 == "O" && t25 == "O")
+            {
+                label1.Text = "Wygrał gracz O";
+
+            }
+            if (t21 == "X" && t22 == "X" && t23 == "X" && t24 == "X" && t25 == "X")
+            {
+                label1.Text = "Wygrał gracz X";
+
+            }
         }
     }
 }
