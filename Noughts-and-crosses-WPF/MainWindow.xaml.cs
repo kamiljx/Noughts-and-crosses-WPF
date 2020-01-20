@@ -52,6 +52,44 @@ namespace Noughts_and_crosses_WPF
             string t23 = button23.Text;
             string t24 = button24.Text;
             string t25 = button25.Text;
+            
+            //PION
+            
+            //1 k
+            if (t1 == "O" && t2 == "O" && t3 == "O" && t4 == "O" && t5 == "O")
+            {
+                label1.Text = "Wygrał gracz O";
+                
+            }
+            if (t1 == "X" && t2 == "X" && t3 == "X" && t4 == "X" && t5 == "X")
+            {
+                label1.Text = "Wygrał gracz X";
+
+            }
+
+            //2 k
+            if (t6 == "O" && t7 == "O" && t8 == "O" && t9 == "O" && t10 == "O")
+            {
+                label1.Text = "Wygrał gracz O";
+
+            }
+            if (t6 == "X" && t7 == "X" && t8 == "X" && t9 == "X" && t10 == "X")
+            {
+                label1.Text = "Wygrał gracz X";
+
+            }
+
+            //3 k
+            if (t11 == "O" && t12 == "O" && t13 == "O" && t14 == "O" && t15 == "O")
+            {
+                label1.Text = "Wygrał gracz O";
+
+            }
+            if (t11 == "X" && t12 == "X" && t13 == "X" && t14 == "X" && t15 == "X")
+            {
+                label1.Text = "Wygrał gracz X";
+
+            }
         }
     }
 }
