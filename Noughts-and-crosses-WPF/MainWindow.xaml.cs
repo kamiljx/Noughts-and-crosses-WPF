@@ -211,5 +211,10 @@ namespace Noughts_and_crosses_WPF
             }
             return "";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
