@@ -1,3 +1,4 @@
+@@ -0,0 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,12 @@ namespace Noughts_and_crosses_WPF
         public MainWindow()
         {
             InitializeComponent();
+            
+            private void Window_Loaded(object sender, RoutedEventArgs e)
+            {
+                // do stuff
+            }
+            
         }
     }
 }
