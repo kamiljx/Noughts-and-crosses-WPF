@@ -214,7 +214,57 @@ namespace Noughts_and_crosses_WPF
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
+            button7.Enabled = true;
+            button8.Enabled = true;
+            button9.Enabled = true;
+            button10.Enabled = true;
+            button11.Enabled = true;
+            button12.Enabled = true;
+            button13.Enabled = true;
+            button14.Enabled = true;
+            button15.Enabled = true;
+            button16.Enabled = true;
+            button17.Enabled = true;
+            button18.Enabled = true;
+            button19.Enabled = true;
+            button20.Enabled = true;
+            button21.Enabled = true;
+            button22.Enabled = true;
+            button23.Enabled = true;
+            button24.Enabled = true;
+            button25.Enabled = true;
             
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+            button10.Text = "";
+            button11.Text = "";
+            button12.Text = "";
+            button13.Text = "";
+            button14.Text = "";
+            button15.Text = "";
+            button16.Text = "";
+            button17.Text = "";
+            button18.Text = "";
+            button19.Text = "";
+            button20.Text = "";
+            button21.Text = "";
+            button22.Text = "";
+            button23.Text = "";
+            button24.Text = "";
+            button25.Text = "";
         }
     }
 }
