@@ -259,6 +259,447 @@ namespace Noughts_and_crosses_WPF
             button23.Text = "";
             button24.Text = "";
             button25.Text = "";
+            
+            if(label1.Text== "Wygrał gracz O")
+            {
+                label1.Text = "Kolej gracza: X";
+            }
+            else if (label1.Text == "Wygrał gracz X")
+            {
+                label1.Text = "Kolej gracza: O";
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(label1.Text == "Kolej gracza: X")
+            {
+                button1.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button1.Enabled = false;
+            }
+            else if(label1.Text == "Kolej gracza: O")
+            {
+                button1.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button1.Enabled = false;
+            }
+            sprawdz();
+        }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button2.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button2.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button2.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button2.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button3.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button3.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button3.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button3.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button4.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button4.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button4.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button4.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button5.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button5.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button5.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button5.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button10.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button10.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button10.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button10.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button9.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button9.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button9.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button9.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button8.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button8.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button8.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button8.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button7.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button7.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button7.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button7.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button6.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button6.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button6.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button6.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button11.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button11.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button11.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button11.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button12.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button12.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button12.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button12.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button13.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button13.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button13.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button13.Enabled = false;
+            }
+            sprawdz();
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button14.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button14.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button14.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button14.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button15.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button15.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button15.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button15.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button16.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button16.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button16.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button16.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button17.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button17.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button17.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button17.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button18.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button18.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button18.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button18.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button19.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button19.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button19.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button19.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button20.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button20.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button20.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button20.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button21.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button21.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button21.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button21.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button22.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button22.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button22.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button22.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button23.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button23.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button23.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button23.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button24.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button24.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button24.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button24.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            if (label1.Text == "Kolej gracza: X")
+            {
+                button25.Text = "X";
+                label1.Text = "Kolej gracza: O";
+                button25.Enabled = false;
+            }
+            else if (label1.Text == "Kolej gracza: O")
+            {
+                button25.Text = "O";
+                label1.Text = "Kolej gracza: X";
+                button25.Enabled = false;
+            }
+            sprawdz();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
         }
     }
 }
