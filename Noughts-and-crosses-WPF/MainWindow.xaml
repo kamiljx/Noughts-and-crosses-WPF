@@ -40,35 +40,35 @@
                 
                 </Grid.RowDefinitions>
 
-                <Button x:Name="btn1" Grid.Column="0" Grid.Row="0" Content=""/>
-                <Button x:Name="btn2" Grid.Column="1" Grid.Row="0"/>
-                <Button x:Name="btn3" Grid.Column="2" Grid.Row="0"/>
-                <Button x:Name="btn4" Grid.Column="3" Grid.Row="0"/>
-                <Button x:Name="btn5" Grid.Column="4" Grid.Row="0"/>
+                <Button x:Name="btn1" Grid.Column="0" Grid.Row="0" Click="btn1_Click" Content=""/>
+                <Button x:Name="btn2" Grid.Column="1" Grid.Row="0" Click="btn2_Click" Content=""/>
+                <Button x:Name="btn3" Grid.Column="2" Grid.Row="0" Click="btn3_Click" Content=""/>
+                <Button x:Name="btn4" Grid.Column="3" Grid.Row="0" Click="btn4_Click" Content=""/>
+                <Button x:Name="btn5" Grid.Column="4" Grid.Row="0" Click="btn5_Click" Content=""/>
 
-                <Button x:Name="btn6" Grid.Column="0" Grid.Row="1"/>
-                <Button x:Name="btn7" Grid.Column="1" Grid.Row="1"/>
-                <Button x:Name="btn8" Grid.Column="2" Grid.Row="1"/>
-                <Button x:Name="btn9" Grid.Column="3" Grid.Row="1"/>
-                <Button x:Name="btn10" Grid.Column="4" Grid.Row="1"/>
+                <Button x:Name="btn6" Grid.Column="0" Grid.Row="1" Click="btn6_Click" Content=""/>
+                <Button x:Name="btn7" Grid.Column="1" Grid.Row="1" Click="btn7_Click" Content=""/>
+                <Button x:Name="btn8" Grid.Column="2" Grid.Row="1" Click="btn8_Click" Content=""/>
+                <Button x:Name="btn9" Grid.Column="3" Grid.Row="1" Click="btn9_Click" Content=""/>
+                <Button x:Name="btn10" Grid.Column="4" Grid.Row="1" Click="btn10_Click" Content=""/>
 
-                <Button x:Name="btn11" Grid.Column="0" Grid.Row="2"/>
-                <Button x:Name="btn12" Grid.Column="1" Grid.Row="2"/>
-                <Button x:Name="btn13" Grid.Column="2" Grid.Row="2"/>
-                <Button x:Name="btn14" Grid.Column="3" Grid.Row="2"/>
-                <Button x:Name="btn15" Grid.Column="4" Grid.Row="2"/>
+                <Button x:Name="btn11" Grid.Column="0" Grid.Row="2" Click="btn11_Click" Content=""/>
+                <Button x:Name="btn12" Grid.Column="1" Grid.Row="2" Click="btn12_Click" Content=""/>
+                <Button x:Name="btn13" Grid.Column="2" Grid.Row="2" Click="btn13_Click" Content=""/>
+                <Button x:Name="btn14" Grid.Column="3" Grid.Row="2" Click="btn14_Click" Content=""/>
+                <Button x:Name="btn15" Grid.Column="4" Grid.Row="2" Click="btn15_Click" Content=""/>
 
-                <Button x:Name="btn16" Grid.Column="0" Grid.Row="3"/>
-                <Button x:Name="btn17" Grid.Column="1" Grid.Row="3"/>
-                <Button x:Name="btn18" Grid.Column="2" Grid.Row="3"/>
-                <Button x:Name="btn19" Grid.Column="3" Grid.Row="3"/>
-                <Button x:Name="btn20" Grid.Column="4" Grid.Row="3"/>
+                <Button x:Name="btn16" Grid.Column="0" Grid.Row="3" Click="btn16_Click" Content=""/>
+                <Button x:Name="btn17" Grid.Column="1" Grid.Row="3" Click="btn17_Click" Content=""/>
+                <Button x:Name="btn18" Grid.Column="2" Grid.Row="3" Click="btn18_Click" Content=""/>
+                <Button x:Name="btn19" Grid.Column="3" Grid.Row="3" Click="btn19_Click" Content=""/>
+                <Button x:Name="btn20" Grid.Column="4" Grid.Row="3" Click="btn20_Click" Content=""/>
 
-                <Button x:Name="btn21" Grid.Column="0" Grid.Row="4"/>
-                <Button x:Name="btn22" Grid.Column="1" Grid.Row="4"/>
-                <Button x:Name="btn23" Grid.Column="2" Grid.Row="4"/>
-                <Button x:Name="btn24" Grid.Column="3" Grid.Row="4"/>
-                <Button x:Name="btn25" Grid.Column="4" Grid.Row="4"/>
+                <Button x:Name="btn21" Grid.Column="0" Grid.Row="4" Click="btn21_Click" Content=""/>
+                <Button x:Name="btn22" Grid.Column="1" Grid.Row="4" Click="btn22_Click" Content=""/>
+                <Button x:Name="btn23" Grid.Column="2" Grid.Row="4" Click="btn23_Click" Content=""/>
+                <Button x:Name="btn24" Grid.Column="3" Grid.Row="4" Click="btn24_Click" Content=""/>
+                <Button x:Name="btn25" Grid.Column="4" Grid.Row="4" Click="btn25_Click" Content=""/>
 
             </Grid>
         </Grid>
@@ -93,7 +93,7 @@
                         <ColumnDefinition Width="50"/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="1">
-                        <Button FontSize="40" x:Name="Restart" Content="Reset"></Button>
+                        <Button FontSize="40" x:Name="Restart" Content="Reset" Click="reset_Click_1"></Button>
                     </Grid>
                     
                 </Grid>
