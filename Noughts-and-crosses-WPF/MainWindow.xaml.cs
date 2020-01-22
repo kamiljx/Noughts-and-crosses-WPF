@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +23,12 @@ namespace Noughts_and_crosses_WPF
         public MainWindow()
         {
             InitializeComponent();
+            
+            private void Window_Loaded(object sender, RoutedEventArgs e)
+            {
+                // do stuff
+            }
+            
         }
 
         //string sprawdz()
@@ -201,9 +207,5 @@ namespace Noughts_and_crosses_WPF
         //    //niedokończona gra
         //    else
         //    {
-
-        //    }
-        //    return "";
-        //}
     }
 }
