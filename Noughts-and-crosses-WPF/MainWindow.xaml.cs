@@ -1,17 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Noughts_and_crosses_WPF
 {
@@ -26,9 +14,15 @@ namespace Noughts_and_crosses_WPF
             
             
         }
-
+        /// <summary>
+        /// sprawdzanie wygranej, przypisanie zawartości przycisków do stringów t1-t25 i porównywanie ich ze sobą, 5 takich samych obok siebie =>
+        /// lub na skos i wygrywa jeden gracz
+        /// </summary>
+        /// <returns>Pokazuje wynik gry, napis kto wygrał</returns>
         string sprawdz()
         {
+
+            ///zawartość przycisków przypisuje to stringów t1-t25
             string t1 = btn1.Content.ToString();
             string t2 = btn2.Content.ToString();
             string t3 = btn3.Content.ToString();
@@ -56,6 +50,9 @@ namespace Noughts_and_crosses_WPF
             string t25 = btn25.Content.ToString();
 
             //PION
+
+            ///poniżej program sprawdza czy
+            
 
             //1 k
             if (t1 == "O" && t6 == "O" && t11 == "O" && t16 == "O" && t21 == "O")
@@ -207,6 +204,11 @@ namespace Noughts_and_crosses_WPF
             }
             return "";
         }
+        /// <summary>
+        /// resetuje gre
+        /// </summary>
+        /// <param name="sender">wciśnięty przycisk</param>
+        /// <param name="e">zdarzenie po wciśnięciu</param>
         private void reset_Click_1(object sender, EventArgs e)
         {
             btn1.IsEnabled = true;
