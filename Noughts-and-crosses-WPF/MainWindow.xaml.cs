@@ -270,6 +270,11 @@ namespace Noughts_and_crosses_WPF
                 player.Content = "Kolej gracza: O";
             }
         }
+        /// <summary>
+        /// sprawdza co wpisać w pole, w zależności od gracza ktorego jest to tura, wpisuje odpowiedni znak i zmienia ture gracza i sprawdza czy jest wygrana
+        /// </summary>
+        /// <param name="sender">wciśnięty przycisk</param>
+        /// <param name="e">blokuje przycisk, wpisuje odpowiedni znak i zmienia kolej gracza na drugiego </param>
         public void btn1_Click(object sender, EventArgs e)
         {
             if (player.Content.ToString() == "Kolej gracza: X")
