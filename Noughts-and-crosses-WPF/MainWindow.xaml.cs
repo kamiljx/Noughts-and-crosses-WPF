@@ -58,6 +58,65 @@ namespace Noughts_and_crosses_WPF
             //PION
 
             //1 k
+            if (t1 == "O" && t6 == "O" && t11 == "O" && t16 == "O" && t21 == "O")
+            {
+                player.Content = "Wygrał gracz O";
+
+            }
+            if (t1 == "X" && t6 == "X" && t11 == "X" && t16 == "X" && t21 == "X")
+            {
+                player.Content = "Wygrał gracz X";
+
+            }
+
+            //2 k
+            if (t2 == "O" && t7 == "O" && t12 == "O" && t17 == "O" && t22 == "O")
+            {
+                player.Content = "Wygrał gracz O";
+
+            }
+            if (t2 == "X" && t7 == "X" && t12 == "X" && t17 == "X" && t22 == "X")
+            {
+                player.Content = "Wygrał gracz X";
+
+            }
+
+            //3 k
+            if (t3 == "O" && t8 == "O" && t13 == "O" && t18 == "O" && t23 == "O")
+            {
+                player.Content = "Wygrał gracz O";
+
+            }
+            if (t3 == "X" && t8 == "X" && t13 == "X" && t18 == "X" && t23 == "X")
+            {
+                player.Content = "Wygrał gracz X";
+
+            }
+            //4 k
+            if (t4 == "O" && t9 == "O" && t14 == "O" && t19 == "O" && t24 == "O")
+            {
+                player.Content = "Wygrał gracz O";
+
+            }
+            if (t4 == "X" && t9 == "X" && t14 == "X" && t19 == "X" && t24 == "X")
+            {
+                player.Content = "Wygrał gracz X";
+
+            }
+            //5 k
+            if (t5 == "O" && t10 == "O" && t15 == "O" && t20 == "O" && t25 == "O")
+            {
+                player.Content = "Wygrał gracz O";
+
+            }
+            if (t5 == "X" && t10 == "X" && t15 == "X" && t20 == "X" && t25 == "X")
+            {
+                player.Content = "Wygrał gracz X";
+
+            }
+            // POZIOM
+
+            // 1 w
             if (t1 == "O" && t2 == "O" && t3 == "O" && t4 == "O" && t5 == "O")
             {
                 player.Content = "Wygrał gracz O";
@@ -69,7 +128,7 @@ namespace Noughts_and_crosses_WPF
 
             }
 
-            //2 k
+            // 2 w
             if (t6 == "O" && t7 == "O" && t8 == "O" && t9 == "O" && t10 == "O")
             {
                 player.Content = "Wygrał gracz O";
@@ -80,8 +139,7 @@ namespace Noughts_and_crosses_WPF
                 player.Content = "Wygrał gracz X";
 
             }
-
-            //3 k
+            // 3 w
             if (t11 == "O" && t12 == "O" && t13 == "O" && t14 == "O" && t15 == "O")
             {
                 player.Content = "Wygrał gracz O";
@@ -92,7 +150,8 @@ namespace Noughts_and_crosses_WPF
                 player.Content = "Wygrał gracz X";
 
             }
-            //4 k
+
+            // 4 w
             if (t16 == "O" && t17 == "O" && t18 == "O" && t19 == "O" && t20 == "O")
             {
                 player.Content = "Wygrał gracz O";
@@ -103,7 +162,8 @@ namespace Noughts_and_crosses_WPF
                 player.Content = "Wygrał gracz X";
 
             }
-            //5 k
+
+            // 5 w
             if (t21 == "O" && t22 == "O" && t23 == "O" && t24 == "O" && t25 == "O")
             {
                 player.Content = "Wygrał gracz O";
@@ -114,87 +174,27 @@ namespace Noughts_and_crosses_WPF
                 player.Content = "Wygrał gracz X";
 
             }
-            // POZIOM
-
-            // 1 w
-            if (t1 == "O" && t10 == "O" && t11 == "O" && t16 == "O" && t21 == "O")
-            {
-                player.Content = "Wygrał gracz O";
-
-            }
-            if (t1 == "X" && t10 == "X" && t11 == "X" && t16 == "X" && t21 == "X")
-            {
-                player.Content = "Wygrał gracz X";
-
-            }
-
-            // 2 w
-            if (t2 == "O" && t9 == "O" && t12 == "O" && t17 == "O" && t22 == "O")
-            {
-                player.Content = "Wygrał gracz O";
-
-            }
-            if (t2 == "X" && t9 == "X" && t12 == "X" && t17 == "X" && t22 == "X")
-            {
-                player.Content = "Wygrał gracz X";
-
-            }
-            // 3 w
-            if (t3 == "O" && t8 == "O" && t13 == "O" && t18 == "O" && t23 == "O")
-            {
-                player.Content = "Wygrał gracz O";
-
-            }
-            if (t3 == "X" && t8 == "X" && t13 == "X" && t18 == "X" && t23 == "X")
-            {
-                player.Content = "Wygrał gracz X";
-
-            }
-
-            // 4 w
-            if (t4 == "O" && t7 == "O" && t14 == "O" && t19 == "O" && t24 == "O")
-            {
-                player.Content = "Wygrał gracz O";
-
-            }
-            if (t4 == "X" && t7 == "X" && t14 == "X" && t19 == "X" && t24 == "X")
-            {
-                player.Content = "Wygrał gracz X";
-
-            }
-
-            // 5 w
-            if (t5 == "O" && t6 == "O" && t15 == "O" && t20 == "O" && t25 == "O")
-            {
-                player.Content = "Wygrał gracz O";
-
-            }
-            if (t5 == "X" && t6 == "X" && t15 == "X" && t20 == "X" && t25 == "X")
-            {
-                player.Content = "Wygrał gracz X";
-
-            }
 
             // SKOS
 
             // 1 S
-            if (t1 == "O" && t9 == "O" && t13 == "O" && t19 == "O" && t25 == "O")
+            if (t1 == "O" && t7 == "O" && t13 == "O" && t19 == "O" && t25 == "O")
             {
                 player.Content = "Wygrał gracz O";
 
             }
-            if (t1 == "X" && t9 == "X" && t13 == "X" && t19 == "X" && t25 == "X")
+            if (t1 == "X" && t7 == "X" && t13 == "X" && t19 == "X" && t25 == "X")
             {
                 player.Content = "Wygrał gracz X";
 
             }
             // 2 w
-            if (t5 == "O" && t7 == "O" && t13 == "O" && t17 == "O" && t21 == "O")
+            if (t5 == "O" && t9 == "O" && t13 == "O" && t17 == "O" && t21 == "O")
             {
                 player.Content = "Wygrał gracz O";
 
             }
-            if (t5 == "X" && t7 == "X" && t13 == "X" && t17 == "X" && t21 == "X")
+            if (t5 == "X" && t9 == "X" && t13 == "X" && t17 == "X" && t21 == "X")
             {
                 player.Content = "Wygrał gracz X";
 
