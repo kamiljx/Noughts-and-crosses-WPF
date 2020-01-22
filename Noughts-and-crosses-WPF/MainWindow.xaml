@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Noughts_and_crosses_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Noughts and Crosses" Height="450" Width="800">
     <Grid Background="Black">
         <Grid.ColumnDefinitions>
             
@@ -13,12 +13,12 @@
             <ColumnDefinition Width="*"/>
             
         </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0" Margin="10">
+        <Grid Grid.Column="0" Margin="5">
             <Grid>
                 <Grid.Resources>
                     <Style TargetType="Button">
                         <Setter Property="Background" Value="Gray"/>
-                        <Setter Property="FontSize" Value="60"/>
+                        <Setter Property="FontSize" Value="50"/>
                     </Style>
                 </Grid.Resources>
                 
@@ -74,7 +74,7 @@
         </Grid>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="70"/>
+                <RowDefinition Height="100"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
