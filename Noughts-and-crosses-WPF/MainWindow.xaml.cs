@@ -202,14 +202,14 @@ namespace Noughts_and_crosses_WPF
             {
                 player.Content = "Wygrał gracz X";
 
-        //    }
-            
-        //    //niedokończona gra
-        //    else
-        //    {
+            }
 
-        //    }
-        //    return "";
-        //}
+            //niedokończona gra
+            else
+            {
+
+            }
+            return "";
+        }
     }
 }
