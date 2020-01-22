@@ -40,7 +40,7 @@
                 
                 </Grid.RowDefinitions>
 
-                <Button x:Name="btn1" Grid.Column="0" Grid.Row="0"/>
+                <Button x:Name="btn1" Grid.Column="0" Grid.Row="0" Content=""/>
                 <Button x:Name="btn2" Grid.Column="1" Grid.Row="0"/>
                 <Button x:Name="btn3" Grid.Column="2" Grid.Row="0"/>
                 <Button x:Name="btn4" Grid.Column="3" Grid.Row="0"/>
