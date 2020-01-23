@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Noughts_and_crosses_WPF"
         mc:Ignorable="d"
-        Title="Noughts and Crosses" Height="450" Width="800">
+        Title="Noughts and Crosses @WSEI" Height="450" Width="800">
     <Window.Background>
         <ImageBrush ImageSource="img/bg.jpg"></ImageBrush>
     </Window.Background>
