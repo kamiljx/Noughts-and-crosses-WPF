@@ -82,7 +82,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
-                <Label x:Name="player" Foreground="Gray" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40">Kolej gracza: O</Label>
+                <Label x:Name="player" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40">Kolej gracza: O</Label>
             </Grid>
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
