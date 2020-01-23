@@ -11,8 +11,7 @@ namespace Noughts_and_crosses_WPF
         public MainWindow()
         {
             InitializeComponent();
-            
-            
+
         }
         /// <summary>
         /// sprawdzanie wygranej, przypisanie zawartości przycisków do stringów t1-t25 i porównywanie ich ze sobą, 5 takich samych obok siebie =>
@@ -52,7 +51,6 @@ namespace Noughts_and_crosses_WPF
             //PION
 
             ///poniżej program sprawdza czy
-            
 
             //1 k
             if (t1 == "O" && t6 == "O" && t11 == "O" && t16 == "O" && t21 == "O")
@@ -270,11 +268,14 @@ namespace Noughts_and_crosses_WPF
                 player.Content = "Kolej gracza: O";
             }
         }
+
+
         /// <summary>
         /// sprawdza co wpisać w pole, w zależności od gracza ktorego jest to tura, wpisuje odpowiedni znak i zmienia ture gracza i sprawdza czy jest wygrana
         /// </summary>
         /// <param name="sender">wciśnięty przycisk</param>
         /// <param name="e">blokuje przycisk, wpisuje odpowiedni znak i zmienia kolej gracza na drugiego </param>
+
         public void btn1_Click(object sender, EventArgs e)
         {
             if (player.Content.ToString() == "Kolej gracza: X")
