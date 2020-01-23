@@ -82,7 +82,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0">
-                <Label x:Name="player" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40">Kolej gracza: O</Label>
+                <Label x:Name="player" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontFamily="Consolas" FontWeight="Bold">Kolej gracza: O</Label>
             </Grid>
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
@@ -97,7 +97,11 @@
                         <ColumnDefinition Width="50"/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="1">
-                        <Button FontSize="40" x:Name="Restart" Content="Reset" Click="reset_Click_1"></Button>
+                        <Button FontSize="40" x:Name="Restart" Foreground="WhiteSmoke" Content="Reset" Click="reset_Click_1" FontFamily="Consolas">
+                            <Button.Background>
+                                <ImageBrush ImageSource="img/buttonpic.jpg" Stretch="Fill"></ImageBrush>
+                            </Button.Background>
+                        </Button>
                     </Grid>
                     
                 </Grid>
