@@ -10,6 +10,7 @@
         <ImageBrush ImageSource="img/bg.jpg"></ImageBrush>
     </Window.Background>
     <Grid >
+
         <Grid.ColumnDefinitions>
             
             <ColumnDefinition Width="*"/>
