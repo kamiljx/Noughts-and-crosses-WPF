@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:Noughts_and_crosses_WPF"
         mc:Ignorable="d"
         Title="Noughts and Crosses" Height="450" Width="800">
-    <Grid Background="Black">
+    <Window.Background>
+        <ImageBrush ImageSource="img/bg.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid >
         <Grid.ColumnDefinitions>
             
             <ColumnDefinition Width="*"/>

@@ -11,8 +11,8 @@ namespace Noughts_and_crosses_WPF
         public MainWindow()
         {
             InitializeComponent();
-            
-            
+
+
         }
         /// <summary>
         /// sprawdzanie wygranej, przypisanie zawartości przycisków do stringów t1-t25 i porównywanie ich ze sobą, 5 takich samych obok siebie =>
@@ -52,7 +52,7 @@ namespace Noughts_and_crosses_WPF
             //PION
 
             ///poniżej program sprawdza czy
-            
+
 
             //1 k
             if (t1 == "O" && t6 == "O" && t11 == "O" && t16 == "O" && t21 == "O")
